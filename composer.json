@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "~2.0",
+        "doctrine/dbal": "*",
+        "doctrine/orm": "*",
+        "dflydev/doctrine-orm-service-provider": "@dev",
+        "symfony/yaml": "^3.2",
+        "jdesrosiers/silex-jms-serializer-provider": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "ZupPois\\": "src/"
+        }
+    }
+}
